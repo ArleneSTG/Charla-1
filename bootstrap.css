@@ -11459,12 +11459,21 @@ body {
 }
 
 body{
-  background-image: url("fond.jpg");
+
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 999;
   background-color: white;
 }
+
+.nav{
+  background-image: url("fond.jpg");
+  position: cover;
+  height: 600px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 h1{
   text-align: center;
   margin-top: 50px;
@@ -11480,7 +11489,7 @@ h1{
 
 .carrusel{
 width: 1000px;
-margin-top: 600px;
+margin-top: 70px;
 margin-left: 170px;
 margin-bottom: 100px;
 }
